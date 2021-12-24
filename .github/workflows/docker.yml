@@ -2,6 +2,9 @@ name: Docker Image CI
 on:
   push:
     branches: [ main ]
+env:
+  GHCR_REPO: ${{ github.repository }}
+  DOCKER_REPO: ${{ github.repository }}
 jobs:
   docker:
     runs-on: ubuntu-latest
