@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
 env:
-  GHCR_REPO: ${{ github.repository }}
+  GHCR_REPO: akiranohikari
   DOCKER_REPO: ${{ github.repository }}
 jobs:
   docker:
