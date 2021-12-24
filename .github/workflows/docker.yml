@@ -3,8 +3,8 @@ on:
   push:
     branches: [ main ]
 env:
-  GHCR_REPO: akiranohikari
-  DOCKER_REPO: ${{ github.repository }}
+  GHCR_REPO: akiranohikari/pysauce
+  DOCKER_REPO: akiranohikari/pysauce
 jobs:
   docker:
     runs-on: ubuntu-latest
