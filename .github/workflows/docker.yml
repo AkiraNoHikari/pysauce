@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
 env:
-  GHCR_REPO: AkiraNoHikari/pysauce
+  GHCR_REPO: akiranohikari/pysauce
   DOCKER_REPO: akiranohikari/pysauce
 jobs:
   docker:
