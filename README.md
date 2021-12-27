@@ -2,10 +2,10 @@
 ![](https://img.shields.io/github/workflow/status/AkiraNoHikari/pysauce/Docker%20Image%20CI?logo=github&style=flat-square)
 ![](https://img.shields.io/badge/version-0.1.0-green.svg?style=flat-square)
 ![](https://img.shields.io/badge/python-3.8-blue?style=flat-square)
-![](https://img.shields.io/github/license/AkiraNoHikari/pysauce?style=flat-square)
+![](https://img.shields.io/github/license/AkiraNoHikari/pysauce?color=blue&style=flat-square)
 ![](https://img.shields.io/discord/923228837968511056?color=5865F2&style=flat-square)
 
-> Pysauce is a Discord bot which utilizes the [SauceNAO](sauce_nao) API to locate the source of images.
+> Pysauce is a Discord bot which utilizes the [SauceNAO][sauce_nao] API to locate the source of images.
 
 ## Use
 Pysauce has one public instance always running, if you simply want to use Pysauce [invite][pysauce_invite] it to your guild.
