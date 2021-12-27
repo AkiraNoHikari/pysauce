@@ -27,7 +27,7 @@ async def on_ready():
     await client.change_presence(activity=activity)
 
 
-@client.message_command(name="Get Sauce", guild_ids=[923228837968511056])
+@client.message_command(name="Get Sauce")
 async def get_sauce(ctx, msg: discord.Message):
 
     if len(msg.attachments) == 0:
@@ -59,7 +59,7 @@ async def get_sauce(ctx, msg: discord.Message):
 
 
 @client.slash_command(
-    name="help", description="Prints the Sauce manual", guild_ids=[923228837968511056]
+    name="help", description="Prints the Sauce manual"
 )
 async def help(ctx):
     embed = discord.Embed(
@@ -83,8 +83,7 @@ async def help(ctx):
 
 @client.slash_command(
     name="about",
-    description="Prints information about the bot",
-    guild_ids=[923228837968511056],
+    description="Prints information about the bot"
 )
 async def about(ctx):
 
